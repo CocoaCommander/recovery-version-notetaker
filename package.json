@@ -1,0 +1,26 @@
+{
+  "name": "recovery-version-notetaker",
+  "version": "0.0.0",
+  "description": "Electron based note taking app for bible studies",
+  "main": "main.ts",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "start": "electron dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CocoaCommander/recovery-version-notetaker.git"
+  },
+  "author": "Ryan Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CocoaCommander/recovery-version-notetaker/issues"
+  },
+  "homepage": "https://github.com/CocoaCommander/recovery-version-notetaker#readme",
+  "devDependencies": {
+    "@types/electron": "^1.6.10",
+    "electron": "^31.1.0",
+    "typescript": "^5.5.3"
+  }
+}
